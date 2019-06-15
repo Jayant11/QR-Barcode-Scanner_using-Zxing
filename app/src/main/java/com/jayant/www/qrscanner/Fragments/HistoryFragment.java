@@ -66,7 +66,7 @@ public class HistoryFragment extends Fragment {
     private static final String TAG = "com.jayant.billing :  ";
     public static IabHelper mHelper;
     public static IInAppBillingService mService;
-    static final String ITEM_SKU = "android.jayant.qrscanner_history_purchase";
+    static final String ITEM_SKU = "。。。。。。";
 
     static Button buy;
     String deviceId;
@@ -87,7 +87,7 @@ public class HistoryFragment extends Fragment {
     }
 
     private void setupBilling() {
-        String base64EncodedPublicKey = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsOx97GxH5q3+gN9M5Un9CgD5wSXigUEhRnK0et29vQ3p3HssXuW5fT5tBaJdwE8HO7AhTX6bOID+2TY94lthLhtYLKS5aK0TV3nR+KLTb+NulrUDICzuE9McnnVNlNh6HZO/zpnDRXMgaksqPHg2LobVuyZBNt7oNxn/QT89HXEpjFrXdcSIhR5/NWXqnx3FhGYMdePaRFy1Mwz5cDGj/b1UaQENQcMpZG/CluwZqiDssvUICqa4EFYDA2lDNqwUtxR7Rxptkt7RNadC4+YqJSfvlm+FYTrbCbwDB+vOe78JzYv+Nb/Ek3f7pEWmcGzHfbmk0hW/3u0Oglu02PsfKQIDAQAB";
+        String base64EncodedPublicKey = "。。。。。。";
         mHelper = new IabHelper(MainActivity.context, base64EncodedPublicKey);
         mHelper.startSetup(new IabHelper.OnIabSetupFinishedListener() {
             public void onIabSetupFinished(IabResult result) {
